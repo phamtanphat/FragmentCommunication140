@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68a39b">
+
+    <TextView
+        android:id="@+id/textviewfragmentb"
+        android:textColor="#1b1b20"
+        android:textSize="40sp"
+        android:text="Fragment B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edittextfragmentb"
+        android:layout_marginTop="10dp"
+        android:hint="Nhap du lieu cho Fragment B"
+        android:layout_below="@+id/textviewfragmentb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edittextfragmentb"
+        android:text="Send data from fragment b"
+        android:id="@+id/buttonfragmentb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
